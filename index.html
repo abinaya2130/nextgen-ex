@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NextGen UI — an interactive, responsive web experience.">
+  <title>NextGen UI | Interactive Experience</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="#" class="brand"><span class="brand-icon">N</span> NextGen<span class="accent">UI</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+    </nav>
+    <button id="themeToggle" class="icon-button" aria-label="Switch color theme">☀</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="live-dot"></span> THE FUTURE OF WEB EXPERIENCES</span>
+        <h1>Design beyond<br>the <span class="gradient-text">ordinary.</span></h1>
+        <p class="hero-description">
+          Explore a smarter, more interactive digital experience.
+          Beautiful design meets powerful functionality.
+        </p>
+        <div class="hero-actions">
+          <a href="#features" class="primary-button">Explore Features ↗</a>
+          <button id="demoButton" class="secondary-button">Try Interactive Demo</button>
+        </div>
+        <div class="hero-note"><span>✦</span> Modern design. Meaningful interactions.</div>
+      </div>
+
+      <div class="visual-card" aria-label="Interactive design preview">
+        <div class="visual-top">
+          <span class="window-dots">● ● ●</span>
+          <span class="preview-label">LIVE PREVIEW</span>
+        </div>
+        <div class="orb-wrap"><div class="orb"></div></div>
+        <p class="preview-caption">Your ideas, reimagined.</p>
+        <p class="preview-subtitle">A new dimension of digital design.</p>
+        <div class="mini-metrics">
+          <div><strong>01</strong><span>Discover</span></div>
+          <div><strong>02</strong><span>Create</span></div>
+          <div><strong>03</strong><span>Experience</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Project highlights">
+      <div><strong>01</strong><span>Modern Interface</span></div>
+      <div><strong>100%</strong><span>Responsive Design</span></div>
+      <div><strong>∞</strong><span>Creative Possibilities</span></div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">BUILT FOR THE NEXT GENERATION</span>
+        <h2>Experience the <span class="gradient-text">difference.</span></h2>
+        <p>Thoughtful features that make every interaction count.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <div class="feature-icon purple">✧</div>
+          <h3>Beautiful UI</h3>
+          <p>A clean, futuristic interface with rich colors, depth, and visual detail.</p>
+          <a href="#about" class="feature-link">Discover more ↗</a>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon blue">⌘</div>
+          <h3>Smart Interactions</h3>
+          <p>Responsive controls, helpful feedback, and interactive elements.</p>
+          <a href="#about" class="feature-link">Discover more ↗</a>
+        </article>
+        <article class="feature-card">
+          <div class="feature-icon pink">◈</div>
+          <h3>Adaptive Design</h3>
+          <p>A flexible layout designed for desktop, tablet, and mobile screens.</p>
+          <a href="#about" class="feature-link">Discover more ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="showcase section" id="about">
+      <div>
+        <span class="eyebrow">MADE TO INSPIRE</span>
+        <h2>Technology should feel <span class="gradient-text">effortless.</span></h2>
+        <p>NextGen UI demonstrates how design, accessibility, responsiveness,
+          and JavaScript can work together to create a better web experience.</p>
+      </div>
+      <div class="showcase-badge"><span>✦</span><strong>Think.</strong><strong>Create.</strong><strong>Innovate.</strong></div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="brand"><span class="brand-icon">N</span> NextGen<span class="accent">UI</span></a>
+    <p>Designed with curiosity. Built for the future.</p>
+    <span>© <span id="year"></span> NextGen UI</span>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
